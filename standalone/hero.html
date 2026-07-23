@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenga Mota - Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { navy: '#0B2D5C', maroon: '#A51C30' },
+                    fontFamily: { 'poppins': ['Poppins', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="bg-gray-50">
+<section id="home" class="relative min-h-[92vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/hero-bg.jpg" alt="Premium cars from Tenga Mota" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-navy/95 via-navy/85 to-black/90"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_30%,_rgba(0,0,0,0.8))]" ></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-1.5 mb-6">
+                    <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                    <span class="text-white/90 text-xs font-medium tracking-wider">HARARE • JAPAN • SOUTH AFRICA • THAILAND</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight">
+                    Tenga Mota <span class="text-white/80 font-light">Zimbabwe</span>
+                </h1>
+                <p class="mt-6 text-xl sm:text-2xl text-white/90 font-light tracking-wide">YOUR TRUSTED PARTNER IN ALL THINGS AUTOMOTIVE</p>
+                <p class="mt-4 text-white/70 max-w-xl">We import, sell, and clear vehicles with transparency and care. From Japan, SA & Thailand straight to your driveway in Harare.</p>
+                
+                <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                    <a href="#inventory" class="group bg-white text-navy px-8 py-4 rounded-xl font-semibold text-center hover:bg-gray-100 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                        Browse Cars on Sale
+                        <svg class="w-4 h-4 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                    <a href="#contact" class="bg-maroon/90 backdrop-blur text-white px-8 py-4 rounded-xl font-semibold text-center hover:bg-maroon transition-all border border-white/20 shadow-xl hover:shadow-2xl hover:-translate-y-0.5">
+                        Import a Car
+                    </a>
+                </div>
+
+                <div class="mt-14 grid grid-cols-3 gap-6 max-w-lg">
+                    <div>
+                        <div class="text-2xl font-bold text-white">200+</div>
+                        <div class="text-xs text-white/60 uppercase tracking-wider">Cars Delivered</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-white">4-6</div>
+                        <div class="text-xs text-white/60 uppercase tracking-wider">Weeks Import</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-white">100%</div>
+                        <div class="text-xs text-white/60 uppercase tracking-wider">Cleared Legally</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="../script.js"></script>
+</body>
+</html>

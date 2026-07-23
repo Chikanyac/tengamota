@@ -1,0 +1,4 @@
+/* styles.css - shared */
+html { scroll-behavior: smooth; }
+body { font-family: 'Poppins', sans-serif; }
+.glass { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
